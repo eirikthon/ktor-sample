@@ -8,6 +8,6 @@ fun main(args: Array<String>) {
 }
 
 fun Application.module() {
-    print(environment.config.tryGetString("db.password"))
+    print(environment.config.tryGetString("password"))
     configureRouting()
 }
